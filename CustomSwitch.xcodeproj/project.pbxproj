@@ -14,6 +14,8 @@
 		7900C43E229BF54200FB8FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7900C43C229BF54200FB8FE2 /* LaunchScreen.storyboard */; };
 		7900C449229BF54200FB8FE2 /* CustomSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900C448229BF54200FB8FE2 /* CustomSwitchTests.swift */; };
 		7900C454229BF54200FB8FE2 /* CustomSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900C453229BF54200FB8FE2 /* CustomSwitchUITests.swift */; };
+		7900C462229BF59900FB8FE2 /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7900C461229BF59900FB8FE2 /* CustomSwitch.swift */; };
+		7900C464229C032E00FB8FE2 /* Simulator Screen Shot - iPhone 6s - 2019-05-27 at 16.38.08.png in Resources */ = {isa = PBXBuildFile; fileRef = 7900C463229C032E00FB8FE2 /* Simulator Screen Shot - iPhone 6s - 2019-05-27 at 16.38.08.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7900C44F229BF54200FB8FE2 /* CustomSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7900C453229BF54200FB8FE2 /* CustomSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitchUITests.swift; sourceTree = "<group>"; };
 		7900C455229BF54200FB8FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7900C461229BF59900FB8FE2 /* CustomSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
+		7900C463229C032E00FB8FE2 /* Simulator Screen Shot - iPhone 6s - 2019-05-27 at 16.38.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 6s - 2019-05-27 at 16.38.08.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				7900C433229BF54000FB8FE2 /* AppDelegate.swift */,
 				7900C435229BF54000FB8FE2 /* ViewController.swift */,
+				7900C461229BF59900FB8FE2 /* CustomSwitch.swift */,
 				7900C437229BF54000FB8FE2 /* Main.storyboard */,
+				7900C463229C032E00FB8FE2 /* Simulator Screen Shot - iPhone 6s - 2019-05-27 at 16.38.08.png */,
 				7900C43A229BF54200FB8FE2 /* Assets.xcassets */,
 				7900C43C229BF54200FB8FE2 /* LaunchScreen.storyboard */,
 				7900C43F229BF54200FB8FE2 /* Info.plist */,
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7900C464229C032E00FB8FE2 /* Simulator Screen Shot - iPhone 6s - 2019-05-27 at 16.38.08.png in Resources */,
 				7900C43E229BF54200FB8FE2 /* LaunchScreen.storyboard in Resources */,
 				7900C43B229BF54200FB8FE2 /* Assets.xcassets in Resources */,
 				7900C439229BF54000FB8FE2 /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			files = (
 				7900C436229BF54000FB8FE2 /* ViewController.swift in Sources */,
 				7900C434229BF54000FB8FE2 /* AppDelegate.swift in Sources */,
+				7900C462229BF59900FB8FE2 /* CustomSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
